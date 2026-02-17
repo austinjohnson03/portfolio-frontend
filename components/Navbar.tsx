@@ -1,4 +1,5 @@
 import "@/app/globals.css"
+import Link from "next/link"
 
 export default function Navbar() {
     return <nav className="bg-slate-800 border-b borer-slate-900">
@@ -32,6 +33,12 @@ export default function Navbar() {
                     >
                         Contact
                     </a>
+                    <Link
+                        href="/resume"
+                        className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
+                    >
+                    Resume
+                    </Link>
                 </div>
                 <button className="md:hidden text-gray-50">
                     <svg
