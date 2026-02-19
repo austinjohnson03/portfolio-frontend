@@ -16,24 +16,6 @@ export default function Navbar() {
                         Home
                     </Link>
                     <Link
-                        href="/"
-                        className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
-                    >
-                        Projects
-                    </Link>
-                    <Link
-                        href="#"
-                        className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
-                    >
-                        About
-                    </Link>
-                    <Link
-                        href="#"
-                        className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
-                    >
-                        Contact
-                    </Link>
-                    <Link
                         href="/resume"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >

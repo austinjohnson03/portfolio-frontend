@@ -1,6 +1,7 @@
 interface ButtonProps {
     children: React.ReactNode;
     href?: string;
+    target?: '_blank' | '_self' | '_parent' | '_top';
     onClick?: () => void;
     variant?: 'primary' | 'secondary' | 'outline';
     className?: string;

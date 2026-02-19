@@ -7,7 +7,7 @@ const ResumeViewer = dynamic(() => import('@/components/ResumeViewer'), {
     ssr: false,
     loading: () => <p className="text-zinc-500">Loading resume...</p>
 });
-
+// Bugged Download button does not open in new tab.
 export default function Resume() {
     return (
         <div className="flex flex-col items-center gap-6 py-16 px-6">
@@ -15,7 +15,7 @@ export default function Resume() {
                 Resume
             </h1>
             <ResumeViewer />
-            <Button variant='primary' href='/docs/resume.pdf'>
+            <Button variant='primary' href='/docs/resume.pdf' target='_blank'>
                 Download
             </Button>
         </div>
