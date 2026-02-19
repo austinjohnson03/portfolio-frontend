@@ -6,38 +6,38 @@ export default function Navbar() {
         <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
                 <div>
-                    <a className="text-white font-bold text-xl" href="/">Site</a>
+                    <Link className="text-white font-bold text-xl" href="/">Site</Link>
                 </div>
                 <div className="hidden md:flex space-x-8">
-                    <a
-                        href="#"
+                    <Link
+                        href="/"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >
                         Home
-                    </a>
-                    <a
-                        href="#"
+                    </Link>
+                    <Link
+                        href="/"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >
                         Projects
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="#"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >
                         About
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="#"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >
                         Contact
-                    </a>
+                    </Link>
                     <Link
                         href="/resume"
                         className="text-gray-50 hover:text-amber-500 transition-colors duration-200"
                     >
-                    Resume
+                        Resume
                     </Link>
                 </div>
                 <button className="md:hidden text-gray-50">
